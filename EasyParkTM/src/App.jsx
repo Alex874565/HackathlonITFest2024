@@ -10,10 +10,10 @@ function App() {
   return (
     <Router styles = "{min-height: 100%;}">
       <Routes>
-        <Route exact path='/' Component={Home} />
-        <Route path='/login' Component={Login} />
+        <Route exact path='/' Component={Login} />
+        <Route path='/home/:username/:email/' Component={Home} />
         <Route path='/register' Component={Register} />
-        <Route path='/map' Component={Heatmap} />
+        <Route path='/map/:username/:email/' Component={Heatmap} />
       </Routes>
     </Router>
   )

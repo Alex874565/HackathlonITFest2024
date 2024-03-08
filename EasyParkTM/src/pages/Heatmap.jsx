@@ -1,10 +1,15 @@
-import React, { useEffect } from 'react';
 import '../stylesheets/Heatmap.css';
+import React, { useEffect } from 'react';
+import Navbar from '../navbar/Navbar';
+import $ from 'jquery';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader } from "@googlemaps/js-api-loader"
 
-function Heatmap(){
+
+function Heatmap(props){
+    let { username, email } = useParams();
+
     const googleMapsAPIKey = "AIzaSyCvwDVkVUtg3RMffu-AbpzgSKIELMXxHZI";
     const version = "weekly";
 
@@ -24,8 +29,26 @@ function Heatmap(){
         });
       });
 
+      function getData(email, keyword){
+        var serializedData = `email=${email}&keyword=${keyword}`;
+        $.ajax({
+            url:"http://localhost/EasyParkTM/get_streets.php",
+            type:"post",
+            data: serializedData,
+            success: (resp) => {
+                console.log(resp);
+            } 
+        });
+
+    }
+
+    useEffect(() => getData());
+
     return (
+      <div className='nameBody'>
+        {Navbar(username, email)}
         <div id = "map"></div>
+      </div>
     )
 }
 

@@ -9,17 +9,8 @@ const Navbar = (username, email) => {
 					<NavLink to={`/home/${username}/${email}/`}>
 						Home
 					</NavLink>
-					<NavLink to={`/lore/${username}/${email}/`}>
-						Lore
-					</NavLink>
-					<NavLink to={`/stats/${username}/${email}/`}>
-						Statistics
-					</NavLink>
-					<NavLink to={`/history/${username}/${email}/`}>
-						History
-					</NavLink>
-					<NavLink to={`/contact/${username}/${email}/`}>
-						Contact
+					<NavLink to={`/map/${username}/${email}/`}>
+						Map
 					</NavLink>
 				</NavMenu>
 			</Nav>

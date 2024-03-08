@@ -25,7 +25,7 @@ if ($result === false) {
 // Afisează datele din tabel
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo "Coloana1: " . $row["Nr"]. " - Coloana2: " . $row["Denumire"]. "- Coloana3: " . $row["Nr_Locuri_Totale"]. "- Coloana4: " . $row["Nr_Locuri_Ocupate"]. "<br>";
+        echo $row["Denumire"]. "; " . $row["Nr_Locuri_Totale"]. "; " . $row["Nr_Locuri_Ocupate"]."\n";
         // Adaugă aici toate coloanele pe care dorești să le afișezi
     }
 } else {

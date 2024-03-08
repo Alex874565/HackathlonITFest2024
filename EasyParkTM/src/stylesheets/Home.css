@@ -1,15 +1,27 @@
-.nav-bar{
+@font-face {
+    font-family: 'Microsport';
+    src: url('../assets/fonts/MicrosportBold.ttf');
+  }
+
+  .homeBody {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 600px;
-
-
-}
-
-#navBar .logo {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  }
+  
+  p {
+    color: aliceblue;
+    font-family: 'Microsport';
+    font-size: 28px;
+    padding-top: 100px;
+  }
+  
+  .line {
+    background-color: rgb(197, 196, 196);
+    height: 2px;
+    width: 150px;
+  
+    border-radius: 10px;
   }
