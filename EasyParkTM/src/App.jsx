@@ -14,6 +14,7 @@ function App() {
         <Route path='/home/:username/:email/' Component={Home} />
         <Route path='/register' Component={Register} />
         <Route path='/map/:username/:email/' Component={Heatmap} />
+        <Route path='/login' Component={Login} />
       </Routes>
     </Router>
   )
