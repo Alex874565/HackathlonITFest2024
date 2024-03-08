@@ -1,0 +1,15 @@
+.nav-bar{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+
+
+}
+
+#navBar .logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
