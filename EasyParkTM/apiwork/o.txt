@@ -1,0 +1,1261 @@
+Aleea Actorilor,161,0
+Aleea Amicitiei,152,0
+Aleea Arcaşilor,125,0
+Aleea Aurel Ciupe,70,0
+Aleea Avram Imbroane,228,0
+Aleea Azurului,32,0
+Aleea Baghetei,49,0
+Aleea Balcic,257,0
+Aleea Bălţi,284,0
+Aleea Cascadei,113,0
+Aleea Cetinei,54,0
+Aleea Ciobanului,129,0
+Aleea Citadelei,55,0
+Aleea Cristalului,93,0
+Aleea Cutezătorilor,230,0
+Aleea F.C. Ripensia,36,0
+Aleea Franz Liebhard,136,0
+Aleea Fraternităţii,154,0
+Aleea Gorniştilor,230,0
+Aleea Gorunului,45,0
+Aleea Hotinului,97,0
+Aleea Icar,19,0
+Aleea Inului,208,0
+Aleea Ionel Perlea,148,0
+Aleea Libelulei,265,0
+Aleea Lirei,143,0
+Aleea Martir Andrei Istvan,63,0
+Aleea Martir Gheorghe Cruceru,130,0
+Aleea Martir Gheorghe Iosub,37,0
+Aleea Martir Ioan V. Avram,74,0
+Aleea Martir Istvan Andrei,281,0
+Aleea Martir Nagy Eugen,167,0
+Aleea Minerva,235,0
+Aleea Miniş,54,0
+Aleea Muzicii,237,0
+Aleea Nicolae Boboc,194,0
+Aleea Nicoreşti,252,0
+Aleea Poiana Ruscă,247,0
+Aleea Poieniţei,270,0
+Aleea Pădurea Verde,104,0
+Aleea Scurtă,145,0
+Aleea Smeurişului,153,0
+Aleea Speranţei,48,0
+Aleea Spiru Haret,161,0
+Aleea Studenţilor,17,0
+Aleea Săgeţii,236,0
+Aleea Sănătaţii,176,0
+Aleea Tiberiu Brediceanu,8,0
+Aleea Veveriţei,170,0
+Aleea Viilor,296,0
+Bulevardul 16 Decembrie 1989,36,0
+Bulevardul 23 August,162,0
+Bulevardul 3 August 1919,139,0
+Bulevardul 6 Martie,188,0
+Bulevardul Antenei,169,0
+Bulevardul Bogdan Petriceicu Haşdeu,234,0
+Bulevardul Cetăţii,243,0
+Bulevardul Constantin Loga Diaconovici,44,0
+Bulevardul Corneliu Coposu,140,0
+Bulevardul Dr. Iosif Bulbuca,61,0
+Bulevardul Dr. Victor Babeş,206,0
+Bulevardul Dîmboviţa,50,0
+Bulevardul Eroilor de la Tisa,216,0
+Bulevardul G-ral Ion Dragalina,260,0
+Bulevardul Industriei,7,0
+Bulevardul Ion C. Brătianu,124,0
+Bulevardul Iuliu Maniu,96,0
+Bulevardul Leontin Sălăjan,298,0
+Bulevardul Liviu Rebreanu,17,0
+Bulevardul Mihai Viteazu,246,0
+Bulevardul Mihail Eminescu,146,0
+Bulevardul Plavăţ Ştefan,158,0
+Bulevardul Regele Carol I,17,0
+Bulevardul Republicii,126,0
+Bulevardul Revoluţiei 1989,152,0
+Bulevardul Sudului,148,0
+Bulevardul Take Ionescu,134,0
+Bulevardul V. I. Lenin,276,0
+Bulevardul Vasile Parvan,19,0
+Bulevardul Victoriei,49,0
+Calea Alexandru Ioan Cuza,94,0
+Calea Aradului,37,0
+Calea Bogdăneştilor,300,0
+Calea Buziaşului,97,0
+Calea Circumvalaţiunii,282,0
+Calea Dorobanţilor,278,0
+Calea Ghirodei,124,0
+Calea Girocului,273,0
+Calea Martirilor 1989,249,0
+Calea Moşnitei,36,0
+Calea Sever Bocu,172,0
+Calea Stan Vidrighin,4,0
+Calea Torontalului,125,0
+Calea Urseni,289,0
+Calea Şagului,77,0
+Intrarea Aca De Barbu,126,0
+Intrarea Alma Cornea Ionescu,32,0
+Intrarea Apelor,207,0
+Intrarea Arh. Cornel Liuba,183,0
+Intrarea Aurel Turcuş,64,0
+Intrarea Basmului,68,0
+Intrarea Carului,198,0
+Intrarea Castanilor,82,0
+Intrarea Catul Bogdan,185,0
+Intrarea Cerceilor,55,0
+Intrarea Clopotului,297,0
+Intrarea Coşarilor,19,0
+Intrarea Crîngului,138,0
+Intrarea Cucului,144,0
+Intrarea Curcubeului,48,0
+Intrarea Doinei,19,0
+Intrarea Dr. Nazarie,136,0
+Intrarea Elisabeta Rizea,163,0
+Intrarea Eugen T. Marinescu,108,0
+Intrarea Fortăreţei,194,0
+Intrarea G,126,0
+Intrarea Genezei,125,0
+Intrarea Georg Haendel,67,0
+Intrarea Iasomiei,281,0
+Intrarea Iederei,242,0
+Intrarea Iedului,57,0
+Intrarea Ioan Văsii,165,0
+Intrarea Ionel Drîmbă,245,0
+Intrarea Iorgovanului,167,0
+Intrarea Josef Klapka,5,0
+Intrarea Joseph Haydn,60,0
+Intrarea Lugojului,19,0
+Intrarea Luncii,246,0
+Intrarea Lungă,135,0
+Intrarea Martir Angela Sava,150,0
+Intrarea Martir Constantin Gârjoabă,227,0
+Intrarea Martir Dumitru Osman,212,0
+Intrarea Martir Octavian Tintaru,264,0
+Intrarea Martir Petre Mutaşcu,33,0
+Intrarea Martir Slobodanca Ewinger,82,0
+Intrarea Martir Valentin Aparaschivei,280,0
+Intrarea Meseriaşilor,126,0
+Intrarea Mierlei,15,0
+Intrarea Mihai Bănărescu,239,0
+Intrarea Munţilor,106,0
+Intrarea Neptun,282,0
+Intrarea Onoarei,51,0
+Intrarea Orizont,109,0
+Intrarea Ormos Zsigmond,203,0
+Intrarea Ovidiu Cionca,83,0
+Intrarea Paul Neagu,84,0
+Intrarea Peru,244,0
+Intrarea Petalelor,252,0
+Intrarea Petru Puşchiţă,253,0
+Intrarea Petru Păcurariu,237,0
+Intrarea Plantelor,92,0
+Intrarea Pogonici,141,0
+Intrarea Prof. Anton Kathrein,4,0
+Intrarea Pîrîului,296,0
+Intrarea Roma,201,0
+Intrarea Romulus Maritescu,185,0
+Intrarea Rucăr,31,0
+Intrarea Rîului,244,0
+Intrarea Sabinei,38,0
+Intrarea Saturn,96,0
+Intrarea Sepia,279,0
+Intrarea Simu Iulia,85,0
+Intrarea Sunetului,252,0
+Intrarea Surduc,275,0
+Intrarea Sârbu Gheorghe,163,0
+Intrarea Talăngii,22,0
+Intrarea Teodor Ungureanu,36,0
+Intrarea Tiberiu Timişan Pop,226,0
+Intrarea Timotei Popovici,176,0
+Intrarea Topologului,156,0
+Intrarea Umbroasă,254,0
+Intrarea Venus,46,0
+Intrarea Viforului,40,0
+Intrarea Virgil Simonescu,67,0
+Intrarea Visului,45,0
+Intrarea Vîntului,270,0
+Intrarea Zenit,10,0
+Intrarea Zoltan Kodaly,232,0
+Intrarea Zînelor,123,0
+Splaiul Griviţa,170,0
+Splaiul Morarilor,70,0
+Splaiul Nicolae Titulescu,22,0
+Splaiul Nistrului,85,0
+Splaiul Peneş Curcanu,77,0
+Splaiul Protopop Meletie Drăghici,78,0
+Splaiul Sofocle,265,0
+Splaiul Tudor Vladimirescu,24,0
+Strada 1 Decembrie,227,0
+Strada 11 Iunie,36,0
+Strada 12 Aprilie 1961,198,0
+Strada 13 Decembrie,167,0
+Strada 20 Decembrie 1989,153,0
+Strada 30 Decembrie,213,0
+Strada 7 Noiembrie,82,0
+Strada 9 Mai,68,0
+Strada A. S. Puşkin,54,0
+Strada Abrud,277,0
+Strada Acad. Alexandru Borza,41,0
+Strada Acad. Aurel Bărglăzan,216,0
+Strada Acad. Corneliu Micloşi,55,0
+Strada Acad. Petre P.Negulescu,27,0
+Strada Acad. Remus Răduleţ,213,0
+Strada Acad. Sextil Puşcariu,54,0
+Strada Adam Anavi,7,0
+Strada Adam Mickiewicz,244,0
+Strada Adam Muller Guttenbrun,141,0
+Strada Ady Endre,230,0
+Strada Aeroport,12,0
+Strada Agricultorilor,195,0
+Strada Agronomiei,258,0
+Strada Aida,181,0
+Strada Alba Iulia,88,0
+Strada Albinelor,161,0
+Strada Albăstrele,229,0
+Strada Alecu Russo,168,0
+Strada Alexandra Indrieş,60,0
+Strada Alexandru Donici,281,0
+Strada Alexandru Golescu,2,0
+Strada Alexandru Jebeleanu,44,0
+Strada Alexandru Lăpuşneanu,133,0
+Strada Alexandru Macedonski,179,0
+Strada Alexandru Miletici,41,0
+Strada Alexandru Odobescu,7,0
+Strada Alexandru Rogojan,146,0
+Strada Alexandru Vaida Voievod,108,0
+Strada Alexandru Vlahuţă,20,0
+Strada Alexandru Xenopol,240,0
+Strada Alexandru Şerbănescu,85,0
+Strada Alpiniştilor,250,0
+Strada Alsacia,270,0
+Strada Aluniş,167,0
+Strada Amforei,60,0
+Strada Amurgului,244,0
+Strada Amzei,33,0
+Strada Ana Ipătescu,90,0
+Strada Ana Lugojana,95,0
+Strada Andrei Mocioni,223,0
+Strada Anemonelor,197,0
+Strada Anina,47,0
+Strada Anişoara Odeanu,288,0
+Strada Ans,113,0
+Strada Antipa Grigore,155,0
+Strada Anton Bacalbaşa,176,0
+Strada Anton Golopenţia,285,0
+Strada Anton Pann,45,0
+Strada Anton Pavlovici Cehov,52,0
+Strada Anton Seiler,278,0
+Strada Anul 1848,82,0
+Strada Anvers,229,0
+Strada Apateu,147,0
+Strada Apicultorilor,139,0
+Strada Aprodul Movila,165,0
+Strada Apusului,15,0
+Strada Arcidava,188,0
+Strada Arcului,14,0
+Strada Ardealului,142,0
+Strada Arenei,299,0
+Strada Argeş,102,0
+Strada Arh. Duiliu Marcu,155,0
+Strada Arh. Ion Mincu,247,0
+Strada Arh. Szekely Laszlo,42,0
+Strada Arh. Victor Vlad,248,0
+Strada Arhimandrit Teofil Părăian,217,0
+Strada Ariadna,244,0
+Strada Arieş,285,0
+Strada Arinilor,132,0
+Strada Arinului,176,0
+Strada Aristide Briand,261,0
+Strada Aristide Demetriade,121,0
+Strada Armata Roşie,186,0
+Strada Armoniei,191,0
+Strada Aron Pumnul,143,0
+Strada Arsenie Boca,33,0
+Strada Atanasie Demian,55,0
+Strada Atanasie Marian Marienescu,31,0
+Strada Atomului,72,0
+Strada August Treboniu Laurian,228,0
+Strada Augustin Coman,22,0
+Strada Aurel Buteanu,158,0
+Strada Aurel Contrea,124,0
+Strada Aurel Novac,135,0
+Strada Aurel Peteanu,158,0
+Strada Aurel Pop,25,0
+Strada Aurel Popovici,112,0
+Strada Aurel Vernichescu,290,0
+Strada Aurelia Fătu Răduţu,168,0
+Strada Aurelianus,139,0
+Strada Aurora,284,0
+Strada Aviatorilor,111,0
+Strada Avram Imbroane,104,0
+Strada Azaleelor,279,0
+Strada Azuga,155,0
+Strada Aştrilor,84,0
+Strada Baba Dochia,33,0
+Strada Baba Novac,58,0
+Strada Babadag,86,0
+Strada Bachus,52,0
+Strada Bacău,220,0
+Strada Baghetei,256,0
+Strada Baia,174,0
+Strada Balta Verde,274,0
+Strada Banatul,172,0
+Strada Banu Mărăcine,141,0
+Strada Banul Severinului,283,0
+Strada Banul Udrea,160,0
+Strada Barac Ion,232,0
+Strada Barbu Lăutaru,182,0
+Strada Barbu Ştefănescu Delavrancea,3,0
+Strada Barierei,53,0
+Strada Basarabia,50,0
+Strada Basel,80,0
+Strada Batania,251,0
+Strada Baumhorn Lipot,21,0
+Strada Bega Canal,190,0
+Strada Behelei,239,0
+Strada Bela Kamocsa,245,0
+Strada Bela Lugosi,95,0
+Strada Belgrad,210,0
+Strada Berzei,197,0
+Strada Bistrei,26,0
+Strada Bistriţa,148,0
+Strada Bitolia,252,0
+Strada Blaj,62,0
+Strada Bobîlna,12,0
+Strada Boema,218,0
+Strada Borsec,120,0
+Strada Bradul,110,0
+Strada Bran,44,0
+Strada Brazilor,14,0
+Strada Braşov,165,0
+Strada Brigadierilor,135,0
+Strada Brumărele,180,0
+Strada Brutus Haneş,201,0
+Strada Bruxelles,109,0
+Strada Brînduşei,42,0
+Strada Bucegi,162,0
+Strada Bucovinei,217,0
+Strada Bucureşti,45,0
+Strada Budai Deleanu,274,0
+Strada Bujorilor,73,0
+Strada Burebista,44,0
+Strada Busuioc,230,0
+Strada Béla Bartok,81,0
+Strada Bîrsei,39,0
+Strada Bîrzava,242,0
+Strada C. A. Rosetti,186,0
+Strada Caisului,242,0
+Strada Calistrat Hogaş,178,0
+Strada Cameliei,127,0
+Strada Camil Petrescu,70,0
+Strada Canton C.F.R.,280,0
+Strada Caprei,88,0
+Strada Caraş,115,0
+Strada Carei,298,0
+Strada Carol Robert de Anjou,292,0
+Strada Carol Telbisz,282,0
+Strada Carpaţi,262,0
+Strada Carpenului,99,0
+Strada Cassian Munteanu,174,0
+Strada Ceahlău,259,0
+Strada Ceferiştilor,294,0
+Strada Cercului,269,0
+Strada Cerna,251,0
+Strada Cernăuţi,275,0
+Strada Cetatea Albă,68,0
+Strada Cezar Bolliac,225,0
+Strada Charles Darwin,44,0
+Strada Chevereşului,102,0
+Strada Chimiştilor,275,0
+Strada Chişinău,42,0
+Strada Chişodei,4,0
+Strada Cincinat Pavelescu,157,0
+Strada Ciocîrliei,63,0
+Strada Ciprian Porumbescu,201,0
+Strada Cireşului,138,0
+Strada Clara Zetkin,88,0
+Strada Claude Debussy,178,0
+Strada Cloşca,41,0
+Strada Cluj,194,0
+Strada Clăbucet,6,0
+Strada Cocorilor,226,0
+Strada Cocostîrcului,136,0
+Strada Cocoşului,237,0
+Strada Col. Ion Enescu,184,0
+Strada Colonia Radio,53,0
+Strada Colonia Slavic,297,0
+Strada Cometei,171,0
+Strada Comoarei,84,0
+Strada Comsomolului,79,0
+Strada Comăneşti,21,0
+Strada Constantin Brâncoveanu,7,0
+Strada Constantin Brâncuşi,151,0
+Strada Constantin Brăiloiu,242,0
+Strada Constantin Dobrogeanu Gherea,181,0
+Strada Constantin Iotzu,163,0
+Strada Constantin Noica,95,0
+Strada Constantin Nottara,286,0
+Strada Constantin Olănescu,10,0
+Strada Constantin Rădulescu Motru,270,0
+Strada Constantin Silvestri,80,0
+Strada Constantin Stere,262,0
+Strada Constantin Titel Petrescu,274,0
+Strada Constantin cel Mare,253,0
+Strada Constantin-Miu Lerca,119,0
+Strada Constanţa,118,0
+Strada Constructorilor,44,0
+Strada Contemporanul,42,0
+Strada Cooperaţiei,67,0
+Strada Corbului,178,0
+Strada Corina Irineu,92,0
+Strada Coriolan Brediceanu,276,0
+Strada Coriolan Băran,107,0
+Strada Coriolan Drăgulescu,180,0
+Strada Cornel Grofşoreanu,38,0
+Strada Cornel Lazăr,202,0
+Strada Cornel Trăilescu,280,0
+Strada Cornelia Sălceanu,292,0
+Strada Corneliu Baba,26,0
+Strada Corneliu Ursu,5,0
+Strada Cornelius Nepos,126,0
+Strada Corvin Matei,171,0
+Strada Cosminului,24,0
+Strada Cosmonauţilor,5,0
+Strada Costache Negruzzi,251,0
+Strada Costineşti,257,0
+Strada Cozia,20,0
+Strada Cpt. Damsescu,149,0
+Strada Craiova,157,0
+Strada Cremona,19,0
+Strada Crinul,147,0
+Strada Crivaia,213,0
+Strada Crizantemelor,29,0
+Strada Crişan,75,0
+Strada Crişul,47,0
+Strada Cronicar Ion Neculce,47,0
+Strada Crăiţelor,229,0
+Strada Cugir,252,0
+Strada Cuvin,290,0
+Strada Cîmpului,185,0
+Strada Călan,274,0
+Strada Călin Nemeş,76,0
+Strada Călătorilor,71,0
+Strada Căprioarei,153,0
+Strada Cărturarilor,160,0
+Strada Cărăbuşului,208,0
+Strada D. I. Aldea - Teodorovici,249,0
+Strada Dacilor,89,0
+Strada Dafinului,16,0
+Strada Daliei,260,0
+Strada Damaschin Bojinca,204,0
+Strada Dan Căpitan,58,0
+Strada Daniel Constantin,183,0
+Strada Dej,271,0
+Strada Delfinului,198,0
+Strada Deliblata,167,0
+Strada Delineşti,204,0
+Strada Deliu Petroiu,127,0
+Strada Deportaţii din Bărăgan,53,0
+Strada Deta,279,0
+Strada Diaconu Coresi,42,0
+Strada Diamandy Constantin,235,0
+Strada Diana,236,0
+Strada Dimineţii,69,0
+Strada Dimitrie Bolintineanu,299,0
+Strada Dimitrie Cantemir,88,0
+Strada Dimitrie Dinicu,85,0
+Strada Dimitrie Stan,234,0
+Strada Dimitrie Ţichindeal,136,0
+Strada Dinu Lipatti,109,0
+Strada Dionisie Lintia,81,0
+Strada Diplich Hans,251,0
+Strada Divizia 9 Cavalerie,199,0
+Strada Doamna Chiajna,135,0
+Strada Dobrogea,186,0
+Strada Domogled,232,0
+Strada Dorin Teodorescu,135,0
+Strada Dornei,106,0
+Strada Dositej Obradovici,142,0
+Strada Dr. Alexandru Marta,190,0
+Strada Dr. Aurel Cosma,32,0
+Strada Dr. Aurel Cândea,165,0
+Strada Dr. Carol Davila,56,0
+Strada Dr. Dumitru Bagdasar,246,0
+Strada Dr. Ernest Neumann,10,0
+Strada Dr. Grigore T. Popa,53,0
+Strada Dr. Ioan Bontila,225,0
+Strada Dr. Ioan Mureşan,44,0
+Strada Dr. Iosif Nemoianu,100,0
+Strada Dr. Liviu Cigăreanu,294,0
+Strada Dr. Liviu Gabor,258,0
+Strada Dr. Louis Pasteur,290,0
+Strada Dr. Louis Ţurcanu,79,0
+Strada Dr. Lucian Georgevici,18,0
+Strada Dr. Nicolae Paulescu,27,0
+Strada Dr. Pavel Vasici Ungureanu,186,0
+Strada Dr. Petru Groza,166,0
+Strada Dr. Pius Brânzeu,3,0
+Strada Dr. Robert K. Koch,236,0
+Strada Dragoş Vodă,48,0
+Strada Dreptatea,7,0
+Strada Dropiei,288,0
+Strada Drubeta,239,0
+Strada Drăgăşani,297,0
+Strada Duiliu Zamfirescu,78,0
+Strada Dumbrava Roşie,105,0
+Strada Dumitru Kiriac,236,0
+Strada Dunărea,262,0
+Strada Ecaterina Teodoroiu,88,0
+Strada Ecoului,205,0
+Strada Edgar Quinet,57,0
+Strada Eduard Pamfil,142,0
+Strada Edvard Beneş,280,0
+Strada Efta Botoca,213,0
+Strada Electronicii,261,0
+Strada Emanoil Gojdu,38,0
+Strada Emanuel De Martonne,231,0
+Strada Emanuil Ungureanu,226,0
+Strada Emil Cioran,4,0
+Strada Emil Gîrleanu,164,0
+Strada Emil Racoviţă,124,0
+Strada Emilia Lungu Puhallo,135,0
+Strada Encsel Mauriciu,55,0
+Strada Eneas,40,0
+Strada Energiei,62,0
+Strada Engels Friedrich,115,0
+Strada Enric Baader,44,0
+Strada Enrico Caruso,31,0
+Strada Episcop Alexandru Bonnaz,217,0
+Strada Episcop Augustin Pacha,19,0
+Strada Episcop Ioseph Lonovici,85,0
+Strada Episcop Josef Nischbach,33,0
+Strada Erno Kallai,145,0
+Strada Eroii de la Păuliş,9,0
+Strada Erou Ion Călin,109,0
+Strada Eternităţii,79,0
+Strada Eugen Coşeriu,163,0
+Strada Eugen Cuteanu,241,0
+Strada Eugen Pop,138,0
+Strada Eugen Todoran,162,0
+Strada Eugeniu de Savoya,102,0
+Strada Euripide,19,0
+Strada Evliya Celebi,42,0
+Strada Faenza,50,0
+Strada Fedra,205,0
+Strada Feldioara,206,0
+Strada Feleacul,26,0
+Strada Felix,295,0
+Strada Fermităţii,34,0
+Strada Filaret Barbu,282,0
+Strada Filateliei,188,0
+Strada Flacăra,194,0
+Strada Florilor,263,0
+Strada Florimund Mercy,248,0
+Strada Florin Medeleţ,97,0
+Strada Foişor,52,0
+Strada Fragilor,292,0
+Strada Francesco Griselini,78,0
+Strada Franyo Zoltan,238,0
+Strada Franz Ferch,6,0
+Strada Franz Liszt,145,0
+Strada Franz Schmitz,243,0
+Strada Fratelia,16,0
+Strada Fraţii Buzeşti,48,0
+Strada Frederic Chopin,180,0
+Strada Frederic Mistral,188,0
+Strada Frigului,192,0
+Strada Fructelor,170,0
+Strada Frunzei,181,0
+Strada Fuiorului,65,0
+Strada Furnicii,110,0
+Strada Făgăraş,77,0
+Strada G-ral Eremia Grigorescu,41,0
+Strada G-ral Gheorghe Magheru,48,0
+Strada G-ral Gheorghe Stavrescu,296,0
+Strada G-ral Traian Doda,113,0
+Strada Galileo Galilei,65,0
+Strada Garabet Ibrăileanu,82,0
+Strada Garofiţei,169,0
+Strada Gavril Musicescu,197,0
+Strada Gelu,170,0
+Strada Gen. David Praporgescu,212,0
+Strada General George Pomuţ,158,0
+Strada General Henri Berthelot,222,0
+Strada Geneva,11,0
+Strada George Ardelean,35,0
+Strada George Bacovia,294,0
+Strada George Coşbuc,42,0
+Strada George Enescu,19,0
+Strada George Georgescu,219,0
+Strada George Haendel,250,0
+Strada George Matei Cantacuzino,65,0
+Strada George Pop de Băseşti,32,0
+Strada George Ranetti,214,0
+Strada George Topîrceanu,30,0
+Strada Georges Bizet,177,0
+Strada Gera,209,0
+Strada Gheorghe Adam,161,0
+Strada Gheorghe Andraşiu,12,0
+Strada Gheorghe Asachi,163,0
+Strada Gheorghe Bariţiu,286,0
+Strada Gheorghe Cotoşman,21,0
+Strada Gheorghe Cucu,72,0
+Strada Gheorghe Dima,54,0
+Strada Gheorghe Doja,107,0
+Strada Gheorghe Ivănescu,266,0
+Strada Gheorghe Leahu,253,0
+Strada Gheorghe Polizu,90,0
+Strada Gheorghe Popovici,17,0
+Strada Gheorghe Şincai,90,0
+Strada Gheorghe Ţiţeica,213,0
+Strada Ghioceilor,94,0
+Strada Ghirlandei,164,0
+Strada Gib Mihăescu,40,0
+Strada Giorgio Ostrogovich,187,0
+Strada Giuseppe Verdi,53,0
+Strada Glad,201,0
+Strada Gladiolelor,11,0
+Strada Gloriei,114,0
+Strada Goliath,130,0
+Strada Gospodarilor,267,0
+Strada Graz,26,0
+Strada Grigore Alexandrescu,172,0
+Strada Grigore Popiţi,244,0
+Strada Grigore Ureche,16,0
+Strada Griviţa Roşie,133,0
+Strada Grădinarilor,274,0
+Strada Grădinii,83,0
+Strada Gării,248,0
+Strada Gărâna,44,0
+Strada Haga,249,0
+Strada Hebe,66,0
+Strada Hector,75,0
+Strada Heinrich Heine,240,0
+Strada Henri Coandă,223,0
+Strada Henri Coursaget,29,0
+Strada Henrieta Delavrancea-Gibory,98,0
+Strada Herculane,23,0
+Strada Herodot,38,0
+Strada Herţa,244,0
+Strada Holdelor,271,0
+Strada Homorod,226,0
+Strada Horia,239,0
+Strada Horia Creangă,138,0
+Strada Horia Hulubei,124,0
+Strada Horia Măcellariu,92,0
+Strada Horia Rusu,224,0
+Strada Horia Ursu Nicolae,87,0
+Strada Hărniciei,98,0
+Strada I. P. Pavlov,77,0
+Strada Iancu Brezeanu,265,0
+Strada Iancu Flondor,295,0
+Strada Iancu Jianu,151,0
+Strada Iancu Văcărescu,212,0
+Strada Iepurelui,153,0
+Strada Ilie Gropşian,113,0
+Strada Independenţei,195,0
+Strada Ing. Anghel Saligny,281,0
+Strada Ioachim Miloia,209,0
+Strada Ioan Alexandru,123,0
+Strada Ioan Budai-Deleanu,77,0
+Strada Ioan Curea,153,0
+Strada Ioan Fackelemann,219,0
+Strada Ioan Grosu,157,0
+Strada Ioan Inocenţiu Micu Klein,258,0
+Strada Ioan Isac,99,0
+Strada Ioan Lotreanu,20,0
+Strada Ioan Plavosin,33,0
+Strada Ioan Raţiu,259,0
+Strada Ioan Sârbu,126,0
+Strada Ioan Zaicu,106,0
+Strada Ion Barbu,28,0
+Strada Ion Creangă,34,0
+Strada Ion Cristoreanu,186,0
+Strada Ion Fonaghi,83,0
+Strada Ion Ghica,141,0
+Strada Ion Heliade Rădulescu,289,0
+Strada Ion Hobana,166,0
+Strada Ion Inculeţ,45,0
+Strada Ion Ionescu de la Brad,229,0
+Strada Ion Luca Bănăţeanu,151,0
+Strada Ion Luca Caragiale,291,0
+Strada Ion Mihalache,65,0
+Strada Ion Minulescu,231,0
+Strada Ion Monoran,90,0
+Strada Ion Negulici,7,0
+Strada Ion Nistor,252,0
+Strada Ion Popovici Bănăţeanu,73,0
+Strada Ion Reteganu Pop,133,0
+Strada Ion Roată,152,0
+Strada Ion Românu,105,0
+Strada Ion Slavici,224,0
+Strada Ion Stoia Udrea,279,0
+Strada Ion Vidu,106,0
+Strada Ionel Teodoreanu,24,0
+Strada Iosif Costinaş,269,0
+Strada Iosif Rangheţ,122,0
+Strada Iosif Sârbu,65,0
+Strada Iosif Velceanu,32,0
+Strada Iosif Vulcan,253,0
+Strada Iris,110,0
+Strada Ismail,20,0
+Strada Iulian Grozescu,230,0
+Strada Iuliu Podlipny,73,0
+Strada Ivanovici D. Mendeleev,226,0
+Strada Izlaz,292,0
+Strada Izvorului,273,0
+Strada Janos Bolyai,215,0
+Strada Jean Monnet,39,0
+Strada Jean Paul Marat,184,0
+Strada Jecza Peter,222,0
+Strada Jiul,160,0
+Strada Johann Heinrich Pestalozzi,255,0
+Strada Johann Jakob Ehrler,60,0
+Strada Johann Nepomuk Preyer,258,0
+Strada Johann Schwicker,238,0
+Strada Johann Sebastian Bach,283,0
+Strada Johann Wolf,93,0
+Strada Johannes Gutenberg,157,0
+Strada Johnny Weissmüller,28,0
+Strada Jorge Amado,286,0
+Strada Jose Silva,215,0
+Strada Joseph Gabriel,141,0
+Strada Jovan Sterija Popović,263,0
+Strada Jules Michelet,59,0
+Strada Jules Verne,177,0
+Strada Jupiter,108,0
+Strada Jókai Mór,87,0
+Strada József Attila,87,0
+Strada Karl Brocky,173,0
+Strada Karl Kerenyi,98,0
+Strada Karoly Kos,126,0
+Strada Labirint,180,0
+Strada Lacului,91,0
+Strada Lalelelor,96,0
+Strada Lascăr Catargiu,254,0
+Strada Laurenţiu Nicoară,24,0
+Strada Lazăr Gheorghe,29,0
+Strada Leandrului,270,0
+Strada Legumiculturii,195,0
+Strada Lemnari,233,0
+Strada Leningrad,121,0
+Strada Letea,109,0
+Strada Leului,83,0
+Strada Lev Nicolaevici Tolstoi,47,0
+Strada Levănţica,188,0
+Strada Lidia,113,0
+Strada Liege,222,0
+Strada Liliacului,124,0
+Strada Liman,205,0
+Strada Linii,247,0
+Strada Liniştei,129,0
+Strada Lisabona,164,0
+Strada Livezilor,243,0
+Strada Loichiţă Vasile,132,0
+Strada Lorena,277,0
+Strada Lt. Ovidiu Balea,167,0
+Strada Luceafărul,295,0
+Strada Lucerna,178,0
+Strada Lucia Cosma,5,0
+Strada Lucian Blaga,94,0
+Strada Luduş,180,0
+Strada Ludwig Van Beethoven,81,0
+Strada Ludwig von Ybl,116,0
+Strada Luiggi Galvani,153,0
+Strada Luminiţa Botoc,250,0
+Strada Luminiţa Boţoc,93,0
+Strada Luncani,39,0
+Strada Lunei,232,0
+Strada Lupeni,45,0
+Strada Luţa Ioviţa,249,0
+Strada Lămâiţei,106,0
+Strada Lăptarilor,87,0
+Strada Lăutarilor,51,0
+Strada Macarie,280,0
+Strada Macilor,18,0
+Strada Madona,229,0
+Strada Madrid,41,0
+Strada Magnoliei,150,0
+Strada Mangalia,30,0
+Strada Manole,123,0
+Strada Maramureş,294,0
+Strada Marcel Iancu,250,0
+Strada Maretkaia Vera,195,0
+Strada Mareşal Alexandru Averescu,89,0
+Strada Mareşal Constantin Prezan,182,0
+Strada Margaretelor,281,0
+Strada Marghitaş,171,0
+Strada Marginii,70,0
+Strada Maria Dogaru,47,0
+Strada Maria Grăghicescu,40,0
+Strada Maria Tănase,160,0
+Strada Mariana Drăghicescu,125,0
+Strada Marius Moga,11,0
+Strada Marius Munteanu,261,0
+Strada Martin Gemeinhardt,1,0
+Strada Martin Luther,190,0
+Strada Martir Alexandru Chorosi,161,0
+Strada Martir Alexandru Ferkel Şuteu,6,0
+Strada Martir Alexandru Grama,210,0
+Strada Martir Anton Florian,50,0
+Strada Martir Cernăianu,100,0
+Strada Martir Claudiu Vârcuş,184,0
+Strada Martir Col. Ioan Uţă,288,0
+Strada Martir Conciatu,186,0
+Strada Martir Constantin Radu,284,0
+Strada Martir Constantin Vîlceanu,252,0
+Strada Martir Constantin Zăbulică,110,0
+Strada Martir Cornel Lucuţa,197,0
+Strada Martir Cornel Popescu,79,0
+Strada Martir Cristina Lungu,47,0
+Strada Martir Dan Carpin,255,0
+Strada Martir Dumitru Jugănaru,101,0
+Strada Martir Gabriela Tako,14,0
+Strada Martir Gheorghe Nuţu Iotcovici,296,0
+Strada Martir Gogu Opre,248,0
+Strada Martir Herman Sporer,186,0
+Strada Martir Ioan Buteanu,108,0
+Strada Martir Ioan Ciordaş,103,0
+Strada Martir Ioan Mariutac,124,0
+Strada Martir Ioan Stanciu,50,0
+Strada Martir Ioan Tănase,255,0
+Strada Martir Ion Miron,202,0
+Strada Martir Janos Paris,176,0
+Strada Martir Ladislau Csiszmarik,151,0
+Strada Martir Leontina Bânciu,160,0
+Strada Martir Maria Andrei,115,0
+Strada Martir Marius Ciopec,129,0
+Strada Martir Marius Nemţoc,133,0
+Strada Martir Mihai Apro,168,0
+Strada Martir Miroslav Todorov,167,0
+Strada Martir Nicoară Elena,276,0
+Strada Martir Nicolae Lăcătuş,222,0
+Strada Martir Ovidiu Munteanu,235,0
+Strada Martir Petru Domăşneanu,28,0
+Strada Martir Petru Haţeganu,183,0
+Strada Martir Remus Tăsală,105,0
+Strada Martir Sebastian Iordan,96,0
+Strada Martir Silviu Motohon,17,0
+Strada Martir Sorinel Leia,149,0
+Strada Martir Spiru Blănaru,173,0
+Strada Martir Vasile Balmuş,262,0
+Strada Martir Ştefan Mariş,234,0
+Strada Martirii de la Fântâna Albă,283,0
+Strada Marx Karl,237,0
+Strada Matei Basarab,38,0
+Strada Matei Millo,248,0
+Strada Maximilian Fremaut,271,0
+Strada Maximilien de Robespierre,14,0
+Strada Medicinei,105,0
+Strada Mehadia,87,0
+Strada Melodiei,8,0
+Strada Memorandului,226,0
+Strada Mesteacănului,170,0
+Strada Meziad,66,0
+Strada Michelangelo,298,0
+Strada Micşunelelor,127,0
+Strada Mihail Glinka,282,0
+Strada Mihail Kogălniceanu,295,0
+Strada Mihail Sadoveanu,238,0
+Strada Milano,268,0
+Strada Milcovul,245,0
+Strada Mile Cărpenişan,141,0
+Strada Miloş Crnjanski,293,0
+Strada Mioriţa,181,0
+Strada Mircea Hoinic,297,0
+Strada Mircea Popa,262,0
+Strada Mircea cel Bătrîn,294,0
+Strada Miresei,1,0
+Strada Miriştei,149,0
+Strada Miron Costin,110,0
+Strada Mitropolir Doctor Vasile Lăzărescu,279,0
+Strada Mitropolit Andrei Şaguna,69,0
+Strada Mitropolit Varlaam,89,0
+Strada Modestiei,168,0
+Strada Mogoşoaia,29,0
+Strada Moise Doboşan,95,0
+Strada Moldovei,15,0
+Strada Molidului,9,0
+Strada Moţilor,126,0
+Strada Mr. Titus Mureşan,151,0
+Strada Mulhouse,50,0
+Strada Muncii,166,0
+Strada Muncitorilor,92,0
+Strada Muntele Mic,31,0
+Strada Munteniei,97,0
+Strada Mureş,108,0
+Strada Muzicii,111,0
+Strada Măcin,173,0
+Strada Măgura,75,0
+Strada Mărginenilor,105,0
+Strada Mărgăritarilor,156,0
+Strada Mărăşeşti,274,0
+Strada Măslinului,264,0
+Strada Mătrăgunei,20,0
+Strada Mătăsarilor,104,0
+Strada N. D. Cocea,89,0
+Strada Napoli,89,0
+Strada Neajlov,155,0
+Strada Nedelcu Zugrav,162,0
+Strada Nera,121,0
+Strada Niccolo Paganini,140,0
+Strada Nichita Stănescu,229,0
+Strada Nicolae Andreescu,195,0
+Strada Nicolae Filimon,245,0
+Strada Nicolae Ghika-Budeşti,81,0
+Strada Nicolae Ghimboaşe,172,0
+Strada Nicolae Grivu,69,0
+Strada Nicolae Ilieşu,197,0
+Strada Nicolae Iorga,122,0
+Strada Nicolae Ivan,120,0
+Strada Nicolae Labiş,146,0
+Strada Nicolae Leonard,173,0
+Strada Nicolae Ostrovski,144,0
+Strada Nicolae Stoica de Haţeg,197,0
+Strada Nicolae Table,53,0
+Strada Nicolae Tincu Velea,280,0
+Strada Nicolaus Copernicus,259,0
+Strada Nicolescu Vasile,207,0
+Strada Nicolinţ,82,0
+Strada Nicu Filipescu,102,0
+Strada Nikolai Nekrasov,172,0
+Strada Nikolaus Berwanger,55,0
+Strada Nikolaus Lenau,77,0
+Strada Norma,87,0
+Strada Nottingham,250,0
+Strada Nouă,264,0
+Strada Nouă Case,137,0
+Strada Nufăr,201,0
+Strada Năsăud,287,0
+Strada Obreja,249,0
+Strada Octav Doicescu,104,0
+Strada Octavian Goga,95,0
+Strada Octavian Paler,156,0
+Strada Oedip,31,0
+Strada Ofcea,276,0
+Strada Oglinzilor,41,0
+Strada Oituz,93,0
+Strada Olanda,92,0
+Strada Olarilor,294,0
+Strada Oraviţa,23,0
+Strada Orhei,52,0
+Strada Orhideelor,96,0
+Strada Orion,289,0
+Strada Orăştie,95,0
+Strada Orşova,113,0
+Strada Oscar Szuhanek,7,0
+Strada Oschanitzky Richard Waldemar,144,0
+Strada Ovidiu,75,0
+Strada Ovidiu Cotrus,107,0
+Strada Palanca,19,0
+Strada Palermo,287,0
+Strada Palmierilor,299,0
+Strada Panait Istrati,199,0
+Strada Panselelor,183,0
+Strada Pantelimon Halippa,253,0
+Strada Parcului,21,0
+Strada Paris,279,0
+Strada Parma,72,0
+Strada Partizanul,152,0
+Strada Parîng,78,0
+Strada Pastorilor,237,0
+Strada Patriarh Miron Cristea,268,0
+Strada Paul Chinezu,200,0
+Strada Paul Constantinescu,285,0
+Strada Paul Iorgovici,239,0
+Strada Paul Morand,224,0
+Strada Pavel Dan,143,0
+Strada Pavel Jumanca,109,0
+Strada Pavel Rotariu,56,0
+Strada Pavel Stoica,72,0
+Strada Pelbartus,47,0
+Strada Pelicani,185,0
+Strada Pelinului,181,0
+Strada Pepinierei,65,0
+Strada Perlei,158,0
+Strada Petre Ispirescu,64,0
+Strada Petre Olariu,295,0
+Strada Petre Râmneanţu,13,0
+Strada Petre Stoica,258,0
+Strada Petre Ţuţea,6,0
+Strada Petru Bandu,94,0
+Strada Petru Cermena,88,0
+Strada Petru Sfetca,61,0
+Strada Petru Vintilă,171,0
+Strada Petuniei,57,0
+Strada Piatra Craiului,274,0
+Strada Pictor Barbu Iscovescu,230,0
+Strada Pictor Nicolae Grigorescu,299,0
+Strada Pictor Octav Băncilă,59,0
+Strada Pictor Theodor Aman,111,0
+Strada Pindului,71,0
+Strada Pisa,271,0
+Strada Platanilor,279,0
+Strada Plautius Andronescu,188,0
+Strada Plopului,284,0
+Strada Plutaşilor,118,0
+Strada Podgoriei,91,0
+Strada Poet Andrei Mureşanu,135,0
+Strada Poet Grigore Alexandrescu,9,0
+Strada Poet Vasile Cârlova,234,0
+Strada Poiana Mărului,177,0
+Strada Polonă,76,0
+Strada Pomiculturii,144,0
+Strada Poneasca,51,0
+Strada Popa Anca,270,0
+Strada Popa Laurenţiu,224,0
+Strada Popa Şapcă,118,0
+Strada Posada,195,0
+Strada Prahova,217,0
+Strada Predeal,219,0
+Strada Preot Alexandru Bălaş,140,0
+Strada Prepeliţei,163,0
+Strada Prieteniei,225,0
+Strada Primăverii,113,0
+Strada Proclamaţia de la Timişoara,61,0
+Strada Prof. Gheorghe Longinescu,230,0
+Strada Prof. Mircea Neamţu,171,0
+Strada Prof. Nicoară Moise,185,0
+Strada Prof.Cişman Alexandru,201,0
+Strada Prof.Dr.Aurel Păunescu-Podeanu,269,0
+Strada Prof.dr. Gheorghe Marinescu,170,0
+Strada Profesor Doctor Valeriu Alaci,194,0
+Strada Progresul,294,0
+Strada Proiectată,237,0
+Strada Proletarul,208,0
+Strada Protopop George Dragomir,97,0
+Strada Protopop George Popovici,143,0
+Strada Prunului,6,0
+Strada Prutul,173,0
+Strada Putna,61,0
+Strada Păcii,222,0
+Strada Pădurarilor,97,0
+Strada Radu Negru,68,0
+Strada Radu Rosetti,138,0
+Strada Radu Tudoran,47,0
+Strada Radu de la Afumaţi,203,0
+Strada Rahovei,50,0
+Strada Rapsodiei,162,0
+Strada Rarău,24,0
+Strada Recoltei,269,0
+Strada Reg. 13 Călăraşi,260,0
+Strada Regele Ferdinand I,254,0
+Strada Regimentul 5 Vânători,14,0
+Strada Regimentul 6 Artilerie Grea,213,0
+Strada Remus,175,0
+Strada Renaşterii,295,0
+Strada Rene Brasey,65,0
+Strada Repin Ilia,210,0
+Strada Retezat,62,0
+Strada Revoluţia din Octombrie 1917,276,0
+Strada Rezistenţa Bănăţeană,151,0
+Strada Reşiţa,161,0
+Strada Rigoletto,157,0
+Strada Romaniţei,245,0
+Strada Romul Ladea,40,0
+Strada Romulus,295,0
+Strada Rotunda,99,0
+Strada Rovine,243,0
+Strada Rozelor,38,0
+Strada Rozmarinului,252,0
+Strada Roşiori,19,0
+Strada Rubinstein Arthur,76,0
+Strada Rudolf Otto,26,0
+Strada Rudolf Walter,83,0
+Strada Rudăria,144,0
+Strada Russu Şirianu,169,0
+Strada Rîndunelelor,53,0
+Strada Răchitei,154,0
+Strada Răscoala din 1907,237,0
+Strada Răsăritului,69,0
+Strada Războieni,101,0
+Strada S. A. Makarenko,217,0
+Strada Sabin Drăgoi,136,0
+Strada Sabin Evuţianu,210,0
+Strada Sabin Manuilă,162,0
+Strada Sacului,182,0
+Strada Salciei,106,0
+Strada Salcîmilor,250,0
+Strada Samuil Micu Clain,227,0
+Strada Samuil Şagovici,207,0
+Strada Satu Mare,127,0
+Strada Satu Nou,92,0
+Strada Sava Petrovici,148,0
+Strada Sculptor Dimitrie Paciurea,215,0
+Strada Scînteia,59,0
+Strada Sebeş,90,0
+Strada Secerei,37,0
+Strada Seleuş,152,0
+Strada Semenic,11,0
+Strada Semicerc,15,0
+Strada Sergent Constantin Muşat,245,0
+Strada Severin,217,0
+Strada Sfinţii Apostoli Petru şi Pavel,29,0
+Strada Sfânta Rosalia,37,0
+Strada Sfântul Ioan,50,0
+Strada Sfântul Iosif cel Nou de la Partoş,208,0
+Strada Sg. Constantin Muşat,212,0
+Strada Sibiu,176,0
+Strada Siemens,190,0
+Strada Sighet,48,0
+Strada Silistra,6,0
+Strada Silviu Bejan,91,0
+Strada Simeon Mangiuca,210,0
+Strada Simion Bărnuţiu,162,0
+Strada Sinaia,230,0
+Strada Sirius,128,0
+Strada Snagov,224,0
+Strada Soarelui,109,0
+Strada Socrate,284,0
+Strada Someş,228,0
+Strada Sorin Titel,134,0
+Strada Soroca,182,0
+Strada Sovata,30,0
+Strada Spartacus,285,0
+Strada Speranţei,163,0
+Strada Spătarul Nicolae Milescu,18,0
+Strada Steaua,168,0
+Strada Stejarul,166,0
+Strada Stelelor,89,0
+Strada Stephenson George,212,0
+Strada Storojineţ,188,0
+Strada Strauss Joseph,58,0
+Strada Stuparilor,265,0
+Strada Suboleasa,115,0
+Strada Suceava,156,0
+Strada Sucului,248,0
+Strada Sulina,42,0
+Strada Surorile Martir Caceu,84,0
+Strada Sânzienelor,18,0
+Strada Sălaj,167,0
+Strada Taborului,110,0
+Strada Tacit,276,0
+Strada Tapia,34,0
+Strada Tata Oancea,186,0
+Strada Tazlău,209,0
+Strada Teatrului,69,0
+Strada Teiului,243,0
+Strada Telegrafului,18,0
+Strada Tempea Liviu,77,0
+Strada Teodor Bucurescu,201,0
+Strada Teodor Gârneţ,237,0
+Strada Teodor V. Păcăţian,240,0
+Strada Terezia Ocsko,270,0
+Strada Theodor Mihali,219,0
+Strada Thomas Alva Edison,204,0
+Strada Tibescum,157,0
+Strada Tibiscum,238,0
+Strada Tibrului,220,0
+Strada Tigrului,79,0
+Strada Timiş,225,0
+Strada Timocului,19,0
+Strada Timotei Cipariu,147,0
+Strada Titan,171,0
+Strada Titu Maiorescu,268,0
+Strada Titus Livius,94,0
+Strada Topliţa,193,0
+Strada Toporaşilor,275,0
+Strada Torac,24,0
+Strada Torino,202,0
+Strada Tosca,142,0
+Strada Traian Demetrescu,32,0
+Strada Traian Grozăvescu,276,0
+Strada Traian Lalescu,192,0
+Strada Traian Novac,136,0
+Strada Traian Simu,37,0
+Strada Traian Vuia,186,0
+Strada Transilvania,103,0
+Strada Traviata,58,0
+Strada Treiso,188,0
+Strada Treviso,25,0
+Strada Trifoiului,91,0
+Strada Tristan Tzara,115,0
+Strada Tudor Arghezi,190,0
+Strada Tulcea,21,0
+Strada Turda,295,0
+Strada Tîmplarilor,97,0
+Strada Tînăra Gardă,84,0
+Strada Tîrgu Mureş,118,0
+Strada Ulmului,154,0
+Strada Ulpia Traiana,239,0
+Strada Umbrei,177,0
+Strada Uranus,202,0
+Strada Uzinei,4,0
+Strada Vadul Crişului,28,0
+Strada Vadul Călugăreni,162,0
+Strada Valeriu Branişte,41,0
+Strada Vasile Alecsandri,49,0
+Strada Vasile Creţu,299,0
+Strada Vasile Georgevici,173,0
+Strada Vasile Goldiş,19,0
+Strada Vasile Lucaciu,16,0
+Strada Vasile Lupu,2,0
+Strada Vasile Mioc,253,0
+Strada Vasile Voiculescu,90,0
+Strada Vasile Zbegan,173,0
+Strada Vega,60,0
+Strada Vegetaţiei,212,0
+Strada Venus,43,0
+Strada Verde,226,0
+Strada Veronica Micle,111,0
+Strada Versului,235,0
+Strada Victor Gaga,90,0
+Strada Victor Hugo,68,0
+Strada Victor Valcovici,251,0
+Strada Vidin,57,0
+Strada Viitorului,225,0
+Strada Violetelor,219,0
+Strada Viorelelor,244,0
+Strada Virgil Madgearu,2,0
+Strada Virgil Oniţiu,261,0
+Strada Virgiliu,22,0
+Strada Virtuţii,86,0
+Strada Visarion Belinski,16,0
+Strada Vişinului,23,0
+Strada Vlad Bănăţeanu,141,0
+Strada Vlad Victor Delamarina,83,0
+Strada Vlădeasa,129,0
+Strada Vlăsiei,223,0
+Strada Volta,167,0
+Strada Vrancei,156,0
+Strada Vuk St. Karadžić,246,0
+Strada Vulturilor,260,0
+Strada Vîlcea,100,0
+Strada Vînătorilor,124,0
+Strada Văliug,254,0
+Strada Vălişoara,152,0
+Strada Vărădia,148,0
+Strada Wilhelm Conrad Röntgen,119,0
+Strada Wilhelm Mühle,232,0
+Strada Wilhelm Tell,46,0
+Strada William Shakespeare,224,0
+Strada Wolfgang Iohann Goethe,217,0
+Strada Zalău,126,0
+Strada Zambilelor,119,0
+Strada Zefirului,157,0
+Strada Zidarilor,50,0
+Strada Zidului,96,0
+Strada Zimbrului,263,0
+Strada Zimnicea,162,0
+Strada Zlatna,59,0
+Strada Zola Emile,247,0
+Strada Zorile,239,0
+Strada Zurich,201,0
+Strada Zurobara,197,0
+Strada Zănoaga,120,0
+Strada Zărand,214,0
+Strada Zăvoi,206,0
+Strada Înfrăţirii,57,0
+Strada Învăţătorului,128,0
+Strada Şcolii,140,0
+Strada Ştefan Cicio-Pop,71,0
+Strada Ştefan Nădăşan,67,0
+Strada Ştefan Octavian Iosif,194,0
+Strada Ştefan Procopiu,183,0
+Strada Ştefan Szonyi,78,0
+Strada Ştefan cel Mare,62,0
+Strada Ştiinţei,96,0
+Strada Ştrandului,222,0
+Strada Ţebea,295,0
+Strada Ţibleşului,4,0
+Trecerea Turnu Roşu,45,0

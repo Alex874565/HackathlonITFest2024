@@ -3,17 +3,17 @@ import '../stylesheets/Login.css';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-const LoginScreen = () => {
+function Login(){
     return(
-        <div class="login-container">
-        <div class="login-box">
+        <div className="login-container">
+        <div className="login-box">
           <h2>Login</h2>
-          <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required />
+          <form id="loginForm">
+            <label htmlFor="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required />
     
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required />
+            <label htmlFor="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required />
     
             <button type="submit">Login</button>
           </form>
@@ -22,11 +22,4 @@ const LoginScreen = () => {
     );
 };
 
-function Login(){
-
-    return (
-    'hi'
-    )
-}
-
-export default LoginScreen
+export default Login

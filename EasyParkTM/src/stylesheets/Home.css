@@ -4,11 +4,14 @@
   }
 
   .homeBody {
-    background-color: aquamarine;
+    background-color: rgb(88, 137, 221);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 600px;
+  }
+  .centered-paragraph {
+    text-align: center;
   }
   
   p {
@@ -22,6 +25,45 @@
     background-color: rgb(197, 196, 196);
     height: 2px;
     width: 150px;
-  
     border-radius: 10px;
+
+    .header-image {
+        position: relative;
+      }
+      
+      .header-image img {
+        width: 10%;
+        height: auto;
+      }
+      
+
+  }.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-bar {
+    margin-top: 20px;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    width: 50%;
+    padding: 10px;
+    background-color: #0e1238;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
