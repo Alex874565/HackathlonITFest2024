@@ -3,14 +3,14 @@
   src: url('../assets/fonts/MicrosportBold.ttf');
 }
 
-.home-containter {
+.home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.homeBody {
+#home-title-div {
   background-color: rgb(88, 137, 221);
   border-radius:  15px 50px 30px;
   flex-direction: column;
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-p {
+#home-title {
   color: #f1feff;
   font-family: 'Microsport';
   font-size: 70px;
@@ -33,26 +33,26 @@ p {
 .line {
   background-color: rgb(197, 196, 196);
   height: 2px;
-  width: 600px;
+  width: 50%;
   border-radius: 10px;
 }
 
-.search-container {
+.home-search-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.search-bar {
+.home-search-bar {
   margin-top: 20px;
-  width: 600px;
+  width: 100%;
   height: 200px;
   padding: 20px;
   text-align: center; /* Center-align the content */
 }
 
-.search-bar input {
+.home-search-bar input {
   width: 100%;
   padding: 8px;
   margin-bottom: 8px;
@@ -60,7 +60,7 @@ p {
   border-radius: 4px;
 }
 
-.search-bar button {
+.home-search-bar button {
   width: 50%;
   padding: 10px;
   background-color: #0e1238;
@@ -73,9 +73,17 @@ p {
 
 .city-status-bar {
   background-color: #f1f1f1;
-  padding: 10px;
+  color: black;
   text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+#city-status{
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
 }

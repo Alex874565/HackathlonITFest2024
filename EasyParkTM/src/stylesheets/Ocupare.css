@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Microsport';
+    src: url('../assets/fonts/MicrosportBold.ttf');
+  }
+  
+  .parking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asigură-te că containerul ocupă cel puțin întreaga înălțime a ecranului */
+  }
+  
+  .parking-controls {
+    width: 300px; /* Ajustează lățimea containerului la preferințele tale */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .parking-controls input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; /* Adaugă un spațiu între text box și butoane */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .parking-controls button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0e1238;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Adaugă spațiu între butoane */
+  }
+  
+  .parking-controls button:hover {
+    background-color: #1a1f4a;
+  }
+  
+  .parking-controls p {
+    color: #f1feff;
+    font-family: 'Microsport';
+    font-size: 18px;
+    margin-top: 10px;
+  }

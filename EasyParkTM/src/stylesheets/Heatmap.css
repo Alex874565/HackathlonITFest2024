@@ -1,8 +1,13 @@
+.heatmap-container{
+   width: 100%;
+   height: 100%;
+}
+
 #map {
-   height: 700px; /* Adjust the height as needed */
-   width: 1000px;  /* Adjust the width as needed */
+   height: auto; /* Adjust the height as needed */
+   width: auto;  /* Adjust the width as needed */
    display: block;
-   border: 2px dotted rgb(88, 137, 221); /* Dotted border with color #333 */
-   border-width: 10px;
-   padding: 1px; /* Add padding for better visibility */
+   padding: 25%;
+   padding-bottom: 27%;
+   margin: 0%;
 }

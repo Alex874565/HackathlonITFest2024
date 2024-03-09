@@ -51,8 +51,7 @@ function Register() {
  }; 
  
  return ( 
-  <div>
-   <div className="App">
+  <div id="register-body">
       <div className="register-container">
      <form id="registerForm" onSubmit={handleSubmit}> 
        <fieldset> 
@@ -70,7 +69,7 @@ function Register() {
              placeholder="Email" 
            /> 
          </div> 
-         <div className="Field"> 
+         <div className="register-field"> 
            <label> 
              Parolă<sup>*</sup> 
            </label> 
@@ -90,13 +89,12 @@ function Register() {
            ) : null} 
          </div> 
          
-         <button type="submit" disabled={!getIsFormValid()}> 
+         <button id="register-button" type="submit" disabled={!getIsFormValid()}> 
            Creează cont 
          </button> 
        </fieldset> 
      </form> 
    </div> 
-   </div>
    </div>
  ); 
 } 

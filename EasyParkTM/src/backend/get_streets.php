@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 // Query pentru a selecta toate datele dintr-un tabel (înlocuiește "nume_tabel" cu numele tabelului tău)
-$sql = "SELECT * FROM ParkingLocations";
+$sql = "SELECT * FROM Streets2";
 $result = $conn->query($sql);
 
 // Verifică dacă interogarea a avut succes
@@ -25,7 +25,7 @@ if ($result === false) {
 // Afisează datele din tabel
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo $row["Denumire"]. "; " . $row["Nr_Locuri_Totale"]. "; " . $row["Nr_Locuri_Ocupate"]."\n";
+        echo $row["street_name"]. "; " . $row["total_space"]. "; " . $row["occupied_space"]."; " . $row["lat"] . "; " . $row["lng"] . "\n";
         // Adaugă aici toate coloanele pe care dorești să le afișezi
     }
 } else {

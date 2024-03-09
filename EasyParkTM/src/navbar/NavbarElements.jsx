@@ -8,32 +8,15 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 0px;
+  width: 100%;
 `;
  
 export const NavLink = styled(Link)`
-  border-right: 2px solid rgb(96, 45, 20);
-  border-left: 2px solid rgb(96, 45, 20);
-  border-top: 2px solid rgb(96, 45, 20);
-  border-bottom: 2px solid rgb(96, 45, 20);
-  padding-left: 111.23px;
-  padding-right: 111.23px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  margin: 0px;
-  color: rgb(96, 45, 20);
-  font-family: "Rocky";
-  font-size: 33px;
-  font-weight: 1000;
-  background-color: rgb(255, 223, 177, 1);
-  &.active {
-    border-color: rgb(255, 223, 177, 1);
-    background-color: rgb(96, 45, 20);
-    color: rgb(251, 233, 187, 1);
-  }
+color: white;
+text-decoration: none;
+margin: 0 16px;
   &:hover{
-    border-color: rgb(255, 223, 177, 1);
-    background-color: rgb(96, 45, 20);
-    color: rgb(251, 233, 187, 1); 
+    text-decoration: underline;
   }
 `;
  
