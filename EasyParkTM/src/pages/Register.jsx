@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react';
 import '../stylesheets/Register.css';
-
-import { useParams } from 'react-router-dom';
-
-
+import $ from 'jquery';
 import {useState} from "react"; 
-import Navbar from '../navbar/Navbar';
-
  
 const PasswordErrorMessage = () => { 
  return ( 
@@ -15,90 +10,145 @@ const PasswordErrorMessage = () => {
 }; 
  
 function Register() { 
- const [firstName, setFirstName] = useState(""); 
- const [lastName, setLastName] = useState(""); 
- const [email, setEmail] = useState(""); 
- const [password, setPassword] = useState({ 
-   value: "", 
-   isTouched: false, 
- }); 
- const [role, setRole] = useState("role"); 
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState({
+    value: '',
+    isTouched: false,
+  });
+
+ async function email_validation(e){
+  var request;
+  e.preventDefault();
+  if (request){
+      request.abort;
+  }
+  var form = $(this);
+  
+  var inputs = form.find("input, button");
+  
+  var serializedData = $("form :input").serialize();
+
+  inputs.prop("disabled", true);
+
+  request = await $.ajax({
+      url:"http://localhost/EasyParkTM/backend/email_validation.php",
+      type: "post",
+      data: serializedData,
+      success: (resp) => {
+          if (resp == "exists"){
+              $('#register_errors').text("Email already in use!");
+          }else if (resp == "Connect error"){
+              alert("Email does not exist");
+          }else{
+              var code = prompt("Please enter the code we sent you on email:")
+              while(code != resp && code != null){
+                  code = prompt("Wrong code. Please enter the code again: ");
+              }
+              if(code == resp){
+                  php_req();
+              }
+          }
+          console.log(resp);
+      },
+      always: (resp) => {
+          inputs.prop("disabled", false);
+          console.log(resp);
+      }
+  });
+}
+
+async function php_req(){
+  var request;
+  event.preventDefault();
+  if (request){
+      request.abort;
+  }
+  var form = $(this);
+  
+  var inputs = form.find("input, button");
+  
+  var serializedData = $("form :input").serialize();
+
+  inputs.prop("disabled", true);
+
+  request = await $.ajax({
+      url:"http://localhost/EasyParkTM/backend/register.php",
+      type: "post",
+      data: serializedData,
+      success: (resp) => {
+          if (resp == "user added"){
+              alert("User registered successfully!");
+              window.location.replace("./login");
+          }
+          console.log(resp);
+      },
+      always: (resp) => {
+          inputs.prop("disabled", false);
+          console.log(resp);
+      }
+  });
+}
+
 
  const getIsFormValid = () => { 
-   return ( 
-     firstName && 
-     validateEmail(email) && 
-     password.value.length >= 8 && 
-     role !== "role" 
-   ); 
- }; 
- 
- const clearForm = () => { 
-   setFirstName(""); 
-   setLastName(""); 
-   setEmail(""); 
-   setPassword({ 
-     value: "", 
-     isTouched: false, 
-   }); 
-   setRole("role"); 
+  return (
+    email && validateEmail(email) && password.value.length >= 8
+  )
  }; 
  
  const handleSubmit = (e) => { 
-   e.preventDefault(); 
-   alert("Account created!"); 
-   clearForm(); 
+   email_validation(e);
  }; 
- 
- return ( 
-  <div id="register-body">
-      <div className="register-container">
-     <form id="registerForm" onSubmit={handleSubmit}> 
-       <fieldset> 
-         <h2>Înregistrare</h2> 
-         
-         <div className="Field"> 
-           <label> 
-             Email<sup>*</sup> 
-           </label> 
-           <input 
-             value={email} 
-             onChange={(e) => { 
-               setEmail(e.target.value); 
-             }} 
-             placeholder="Email" 
-           /> 
-         </div> 
-         <div className="register-field"> 
-           <label> 
-             Parolă<sup>*</sup> 
-           </label> 
-           <input 
-             value={password.value} 
-             type="password" 
-             onChange={(e) => { 
-               setPassword({ ...password, value: e.target.value }); 
-             }} 
-             onBlur={() => { 
-               setPassword({ ...password, isTouched: true }); 
-             }} 
-             placeholder="Parolă" 
-           /> 
-           {password.isTouched && password.value.length < 8 ? ( 
-             <PasswordErrorMessage /> 
-           ) : null} 
-         </div> 
-         
-         <button id="register-button" type="submit" disabled={!getIsFormValid()}> 
-           Creează cont 
-         </button> 
-       </fieldset> 
-     </form> 
-   </div> 
-   </div>
- ); 
-} 
-    
 
+  const validateEmail = (email) => {
+    // Implement your email validation logic here
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+
+  return (
+    
+    <div id="register-body">
+      <div className="register-container">
+      <form id="registerForm" action = "" onSubmit={handleSubmit} method = "POST">
+          <fieldset>
+            <h2>Înregistrare</h2>
+
+            <div className="register-field">
+              <label>Email<sup>*</sup></label>
+              <input
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email"
+              />
+            </div>
+            <div className="register-field">
+              <label>Parolă<sup>*</sup></label>
+              <input
+                name="password"
+                value={password.value}
+                type="password"
+                onChange={(e) => {
+                  setPassword({ ...password, value: e.target.value });
+                }}
+                onBlur={() => {
+                  setPassword({ ...password, isTouched: true });
+                }}
+                placeholder="Parolă"
+              />
+              {password.isTouched && password.value.length < 8 && (
+                <PasswordErrorMessage />
+              )}
+            </div>
+
+            <button id = "register-button" type="submit" disabled={!getIsFormValid()}>
+              Creează cont
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  );
+};
 
 export default Register;

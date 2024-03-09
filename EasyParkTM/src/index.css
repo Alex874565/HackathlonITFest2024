@@ -11,4 +11,6 @@ html,body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  background-image: url('http://localhost/EasyParkTM/assets/pozica_fundal.jpeg');
+  z-index: -1;
 }

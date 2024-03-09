@@ -4,6 +4,10 @@ import '../stylesheets/Home.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 import { useParams } from 'react-router-dom';
+import HtraficImage from '../assets/pozica_high.png';
+import MtraficImage from '../assets/pozica_mediocra.png';
+import LtraficImage from '../assets/pozica_speedy.png';
+
 
 function Home(props) {
   let { username, email } = useParams();
@@ -22,8 +26,18 @@ function Home(props) {
     } else if (hour >= 16 && hour <= 18) {
       return 'Moderate Traffic';
     } else {
-      return 'Normal';
+      return 'Light Traffic';
     }
+  };
+
+  const getTrafficImage = (status) => {
+    // Map traffic status to corresponding image source
+    const images = {
+      'Heavy Traffic': HtraficImage,
+    'Moderate Traffic': MtraficImage,
+    'Light Traffic': LtraficImage,
+    };
+    return images[status] || 'default_image_path.jpg'; // Provide a default image path if status is not found
   };
 
   useEffect(() => {
@@ -39,23 +53,24 @@ function Home(props) {
 
   return (
     <div id='home-body'>
-    {Navbar(username, email)}
-    <div className='home-container'>
-      <div className='home-search-container'>
-        <div className="home-search-bar">
-          <div className='centered-paragraph'>
-          <div id='home-title-div'>
-            <p id="home-title">Easy Park</p>
+      {Navbar(username, email)}
+      <div className='home-container'>
+        <div className='home-search-container'>
+          <div className="home-search-bar">
+            <div className='centered-paragraph'>
+              <div id='home-title-div'>
+                <p id="home-title">Easy Park</p>
+              </div>
+            </div>
+            <div className="line"></div>
+            <input type="text" id="home-search" name="search" placeholder="Going somewhere?..." />
+            <button id="home-go-button" type="button">Go</button>
           </div>
-          </div>
-          <div className="line"></div>
-          <input type="text" id="home-search" name="search" placeholder="Going somewhere?..." />
-          <button id="home-go-button" type="button">Go</button>
         </div>
       </div>
-    </div>
-    <div className="city-status-bar">
-        <p id="city-status">City Status: {trafficStatus}</p>
+      <div className="city-status-bar">
+        <p id="city-status">Traffic Status: {trafficStatus}</p>
+        <img src={getTrafficImage(trafficStatus)} alt={`Traffic status: ${trafficStatus}`} />
       </div>
     </div>
   );

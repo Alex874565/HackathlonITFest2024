@@ -3,6 +3,11 @@
   src: url('../assets/fonts/MicrosportBold.ttf');
 }
 
+#home-body{
+  margin: 0;
+  padding: 0;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
@@ -39,17 +44,18 @@
 
 .home-search-container {
   display: flex;
+  margin-top: 70px; /* Adjust the margin as needed */
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .home-search-bar {
-  margin-top: 20px;
   width: 100%;
   height: 200px;
   padding: 20px;
   text-align: center; /* Center-align the content */
+  margin-top: 20px; /* Add margin to separate the search bar from the title */
 }
 
 .home-search-bar input {
@@ -72,18 +78,20 @@
 }
 
 .city-status-bar {
-  background-color: #f1f1f1;
+  background-color: white;
   color: black;
   text-align: center;
+  margin-left: 30%;
   padding: 10px;
-  margin-bottom: 30px;
   position: fixed;
+  border-radius: 600px;
   bottom: 0;
-  width: 100%;
+  width: 40%;
+  opacity: 0.95;
 }
 
 #city-status{
   color: black;
-  font-family: sans-serif;
+  font-family: 'Microsport';
   font-size: 16px;
 }

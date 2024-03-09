@@ -73,6 +73,7 @@ function Login() {
             <button id="login-button" type="submit" style={{ backgroundColor: 'green' }}>
               Conectează-te
             </button>
+            <p id="to-register">Nu ai cont? <a href="/register">Înregistrează-te aici</a></p>
           </fieldset>
         </form>
       </div>

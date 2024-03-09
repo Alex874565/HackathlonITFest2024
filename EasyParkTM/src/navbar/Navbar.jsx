@@ -1,13 +1,13 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
-import { Link } from 'react-router-dom';
 import './Navbar.css';
+import '../assets/pozica.png';
 
 const Navbar = ( username, email ) => {
   return (
     <Nav>
       <div className="navbar">
-        <span>Your Logo</span>
+        <img style={{maxHeight: '49px', maxWidth: '44px'}} src='http://localhost/EasyParkTM/assets/ez_prk.png'/>
         <nav>
           <NavLink to={`/home/${username}/${email}/`}>
             Home
@@ -17,6 +17,9 @@ const Navbar = ( username, email ) => {
           </NavLink>
           <NavLink to={`/contact/${username}/${email}/`}>
             Contact
+          </NavLink>
+          <NavLink to={`/ocupare/${username}/${email}/`}>
+            Parcare
           </NavLink>
         </nav>
       </div>

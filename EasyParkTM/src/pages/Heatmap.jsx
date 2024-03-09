@@ -18,7 +18,7 @@ function Heatmap(props){
     function getData(email, keyword){
       var serializedData = `email=${email}&keyword=${keyword}`;
       $.ajax({
-          url:"http://localhost/EasyParkTM/get_streets.php",
+          url:"http://localhost/EasyParkTM/backend/get_streets.php",
           type:"post",
           data: serializedData,
           success: (resp) => {

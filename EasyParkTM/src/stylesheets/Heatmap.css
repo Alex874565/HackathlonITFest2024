@@ -1,13 +1,13 @@
 .heatmap-container{
    width: 100%;
    height: 100%;
+   overflow: hidden;
 }
 
 #map {
    height: auto; /* Adjust the height as needed */
    width: auto;  /* Adjust the width as needed */
    display: block;
-   padding: 25%;
-   padding-bottom: 27%;
+   padding: 500px;
    margin: 0%;
 }

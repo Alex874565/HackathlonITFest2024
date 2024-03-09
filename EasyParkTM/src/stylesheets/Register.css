@@ -93,3 +93,7 @@ select {
   color: #ffffff;
   cursor: not-allowed;
 }
+
+#to-register{
+  padding-top: 20px;
+}
