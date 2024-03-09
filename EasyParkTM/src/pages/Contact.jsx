@@ -6,11 +6,11 @@ import { useParams } from 'react-router-dom';
 
 function Contact(props) {
 
-    let { username, email } = useParams(props)
+    let { username, email } = useParams();
 
     return (
         <div>
-            {Navbar({username, email})}
+            {Navbar(username, email)}
             <div className='contact-us-container'>
                 <h2>Contact Us</h2>
                 <p>If you have any questions or concerns, feel free to reach out to us:</p>
