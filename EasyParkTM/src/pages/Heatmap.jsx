@@ -69,12 +69,12 @@ function Heatmap(props){
     });
 
     return (
-      
-      <div className='nameBody'>
+      <div className='heatmap-container'>
         {Navbar(username, email)}
-        <div id = "map"></div>
+        <div id="map"></div>
       </div>
-    )
+    );
+    
 }
 
 export default Heatmap

@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 
 
 import {useState} from "react"; 
+import Navbar from '../navbar/Navbar';
 
  
 const PasswordErrorMessage = () => { 
@@ -50,16 +51,9 @@ function Register() {
  }; 
  
  return ( 
+  <div>
    <div className="App">
-    <div className="navbar">
-        <span>Your Logo</span>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
-      <div class="register-container">
+      <div className="register-container">
      <form id="registerForm" onSubmit={handleSubmit}> 
        <fieldset> 
          <h2>Înregistrare</h2> 
@@ -102,6 +96,7 @@ function Register() {
        </fieldset> 
      </form> 
    </div> 
+   </div>
    </div>
  ); 
 } 

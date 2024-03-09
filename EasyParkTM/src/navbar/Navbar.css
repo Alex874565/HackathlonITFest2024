@@ -1,1 +1,19 @@
-.nav ul{margin:0;}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #333;
+    color: white;
+    width: 1500px; /* Adjust width as needed */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
