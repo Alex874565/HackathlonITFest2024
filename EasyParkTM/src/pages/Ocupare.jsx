@@ -8,57 +8,21 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 function Ocupare(props){
-  let { username, email } = useParams();
+  let { email } = useParams();
   const [streetName, setStreetName] = useState('');
   const [isParked, setIsParked] = useState(false);
-  /*const [trafficStatus, setTrafficStatus] = useState('Normal');
-  const getCurrentHour = () => {
-    const now = new Date();
-    return now.getHours();
-};
 
-const determineTrafficStatus = () => {
-  const hour = getCurrentHour();
-
-  if (hour >= 7 && hour <= 9) {
-      return 'Heavy Traffic';
-  } else if (hour >= 16 && hour <= 18) {
-      return 'Moderate Traffic';
-  } else {
-      return 'Normal';
+  async function check_parking_status(){
+    let request = await $.ajax({
+      url:"http://localhost/EasyParkTM/backend/parking_status.php",
+      type: "POST",
+      data: `email=${email}`,
+      success: (resp) => {
+        console.log(resp)
+      }
+    }
+    )
   }
-};
-
-
-
-
-
-
-useEffect(() => {
-  // Update traffic status when the component mounts
-  setTrafficStatus(determineTrafficStatus());
-}, []);*/
-
-
-
-  const occupyParking = () => {
-    // Aici faci cererea către backend pentru a actualiza strada în baza de date
-    fetch('http://localhost/api.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, street: streetName }),
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Loc de parcare ocupat:', data);
-        setIsParked(true);
-    })
-    .catch(error => {
-        console.error('Eroare la ocuparea locului de parcare:', error);
-    });
-};
 
 const releaseParking = () => {
     // Aici faci cererea către backend pentru a elibera locul de parcare în baza de date
@@ -83,7 +47,7 @@ const releaseParking = () => {
 
   return (
     <div>
-    {Navbar(username, email)}
+    {Navbar(email)}
 
       <div className='parking-container'>
           <div className="parking-controls">

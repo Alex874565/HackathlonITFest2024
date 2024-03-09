@@ -6,19 +6,20 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Heatmap from './pages/Heatmap';
 import Contact from './pages/Contact';
-import Ocupare from './pages/Ocupare'
+import Ocupare from './pages/Ocupare';
+import Welcome from './pages/Welcome';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' Component={Login} />
-        <Route path='/home/:username/:email/' Component={Home} />
+        <Route exact path='/' Component={Welcome} />
+        <Route path='/home/:email/' Component={Home} />
         <Route path='/register' Component={Register} />
-        <Route path='/map/:username/:email/' Component={Heatmap} />
-        <Route path='/contact/:username/:email/' Component={Contact} />
+        <Route path='/map/:email/' Component={Heatmap} />
+        <Route path='/contact/:email/' Component={Contact} />
         <Route path='/login' Component={Login} />
-        <Route path='/ocupare/:username/:email' Component={Ocupare} />
+        <Route path='/ocupare/:email' Component={Ocupare} />
       </Routes>
     </Router>
   )

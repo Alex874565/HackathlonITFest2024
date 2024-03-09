@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../stylesheets/Login.css';
-import Navbar from '../navbar/Navbar';
-import { useParams } from 'react-router-dom';
+import $ from 'jquery';
 
 const PasswordErrorMessage = () => {
   return (
@@ -16,6 +15,40 @@ function Login() {
     isTouched: false,
   });
 
+  async function php_req(){
+    var request;
+    event.preventDefault();
+    if (request){
+        request.abort;
+    }
+    var form = $(this);
+    
+    var inputs = form.find("input, button");
+    
+    var serializedData = $("form :input").serialize();
+    console.log(serializedData);
+
+    inputs.prop("disabled", true);
+
+    request = await $.ajax({
+        url:"http://localhost/EasyParkTM/backend/login.php",
+        type: "post",
+        data: serializedData,
+        success: (resp) => {
+            console.log(resp);
+            if (resp != "exists"){
+                window.location.replace(`home/${email}/`)
+            }else if (resp == "!exists"){
+                $('#login_errors').text("Wrong email/password.");
+            }
+        },
+        always: (resp) => {
+            inputs.prop("disabled", false);
+            console.log(resp);
+        }
+    });
+}
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === "email") {
@@ -27,7 +60,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here
+    php_req();
   };
 
   return (

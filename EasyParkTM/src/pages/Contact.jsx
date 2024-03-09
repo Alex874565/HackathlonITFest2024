@@ -2,15 +2,14 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 import '../navbar/Navbar.css';
 import '../stylesheets/Contact.css';
-import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 function Contact(props) {
-  let { username, email } = useParams();
+  let { email } = useParams();
 
   return (
     <div id="contact-body">
-      {Navbar(username, email)}
+      {Navbar(email)}
       <br></br>
       <div className="contact-us-container">
         <div className="contact-border">

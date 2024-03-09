@@ -8,19 +8,18 @@ import { Loader } from "@googlemaps/js-api-loader"
 
 
 function Heatmap(props){
-    let { username, email } = useParams();
+    let { email } = useParams();
 
     const googleMapsAPIKey = "AIzaSyCvwDVkVUtg3RMffu-AbpzgSKIELMXxHZI";
     const version = "weekly";
 
     let map, heatmap;
 
-    function getData(email, keyword){
-      var serializedData = `email=${email}&keyword=${keyword}`;
+    function getData(){
       $.ajax({
           url:"http://localhost/EasyParkTM/backend/get_streets.php",
           type:"post",
-          data: serializedData,
+          data: "",
           success: (resp) => {
             console.log('success');
             loadMap(resp); 
@@ -95,7 +94,7 @@ function Heatmap(props){
 
   return (
     <div className='heatmap-container'>
-      {Navbar(username, email)}
+      {Navbar(email)}
       <div id="map"></div>
     </div>
   );
