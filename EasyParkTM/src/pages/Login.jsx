@@ -117,7 +117,7 @@ function Login() {
             <button id="login-button" type="submit" style={{ backgroundColor: 'green' }} disabled={!getIsFormValid()}>
               Conectează-te
             </button>
-            <p id="to-register">Nu ai cont? <a href="/register">Înregistrează-te aici</a></p>
+            <p id="to-register">Nu ai cont? <a href="/register">Înregistrează-te aici!</a></p>
           </fieldset>
         </form>
       </div>

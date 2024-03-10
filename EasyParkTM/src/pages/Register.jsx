@@ -144,7 +144,7 @@ async function php_req(){
             <button id = "register-button" type="submit" disabled={!getIsFormValid()}>
               Creează cont
             </button>
-            <p id="to-login">Ai deja cont? <a href="/login">Autentifică-te aici</a></p>
+            <p id="to-login">Ai deja cont? <a href="/login">Autentifică-te aici!</a></p>
           </fieldset>
         </form>
       </div>
