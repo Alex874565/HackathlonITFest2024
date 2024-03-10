@@ -119,8 +119,8 @@ function Ocupare(props){
       <div className='parking-container'>
         {!isParked &&
           (<div className="not-parked-div">
-          <h1>Introduceți numele străzii pe care parcati:</h1>
-            <input list="streets" id="parking-search" name="loc_parcare" onInput={onInput} placeholder="Unde doresti sa parchezi?" />
+          <h1>Unde ai parcat?</h1>
+            <input list="streets" id="parking-search" name="loc_parcare" onInput={onInput} placeholder="ex. Strada Bobalna" />
             <datalist id="streets">
               {streetsArray && streetsArray.map(s => (<option key={s.street_name}>{s.street_name}</option>))}
             </datalist>

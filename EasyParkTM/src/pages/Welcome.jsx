@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import logoImage from '../assets/ez_prk_4k.png'
 import '../stylesheets/Welcome.css';
 
-const WelcomePage = () => {
+const Welcome = () => {
     const [loading, setLoading] = useState(true);
   
     useEffect(() => {
@@ -21,8 +22,14 @@ const WelcomePage = () => {
           <div className="loading-bar"></div>
         ) : (
           <>
-            <h1 className="welcome-message">Welcome to...</h1>
-            <img src={logoImage} alt="EasyPark Logo" className="logo-image" />
+            <h1 className="welcome-message">Welcome to EasyPark</h1>
+            <div className="logo-image-container">
+              <img src={logoImage} alt="EasyPark Logo" className="logo-image" />
+            </div>
+            <div className="buttons-container">
+            <button onClick={() => {window.location.href = "/register";}}>Înregistrare</button>
+            <button onClick={() => {window.location.href = "/login";}}>Autentificare</button>
+            </div>
             {/* Additional content or redirection logic after loading */}
           </>
         )}
@@ -30,4 +37,5 @@ const WelcomePage = () => {
     );
   };
   
-  export default WelcomePage;
+  
+  export default Welcome;

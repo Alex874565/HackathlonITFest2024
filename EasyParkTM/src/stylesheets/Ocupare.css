@@ -8,15 +8,19 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Asigură-te că containerul ocupă cel puțin întreaga înălțime a ecranului */
+    background-color: rgb(14,15,56,0.1);
   }
   
-  .parking-controls {
-    width: 300px; /* Ajustează lățimea containerului la preferințele tale */
+  .parked-div {
+    width: 30%; /* Ajustează lățimea containerului la preferințele tale */
     padding: 20px;
     text-align: center;
+    background-color:rgb(136, 120, 235, 0.9);
+    padding: 40px;
+    border-radius: 50px;
   }
   
-  .parking-controls input {
+  .parked-div input {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px; /* Adaugă un spațiu între text box și butoane */
@@ -24,24 +28,65 @@
     border-radius: 4px;
   }
   
-  .parking-controls button {
+  .parked-div button {
     width: 100%;
     padding: 10px;
     background-color: #0e1238;
+    font-weight: 200;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 10px; /* Adaugă spațiu între butoane */
+    font-size: 20px;
   }
   
-  .parking-controls button:hover {
+  .parked-div button:hover {
     background-color: #1a1f4a;
   }
   
-  .parking-controls p {
+  .parked-div p {
     color: #f1feff;
-    font-family: 'Microsport';
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .not-parked-div {
+    width: 30%; /* Ajustează lățimea containerului la preferințele tale */
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(136, 120, 235, 0.9);
+    padding: 40px;
+    border-radius: 50px;
+  }
+  
+  .not-parked-div input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; /* Adaugă un spațiu între text box și butoane */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .not-parked-div button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 200;
+    background-color: #0e1238;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px; /* Adaugă spațiu între butoane */
+    font-size: 20px;
+  }
+  
+  .not-parked-div button:hover {
+    background-color: #1a1f4a;
+  }
+  
+  .not-parked-div p {
     font-size: 18px;
     margin-top: 10px;
   }

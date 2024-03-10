@@ -2,21 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
-  padding: 16px;
+  font-size: 25px;
   background-color: rgb(14, 15, 56);
   color: white;
+  height: 59px;
   width: 100%; /* Adjust width as needed */
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 0 16px;
+  margin: 0 0;
+  padding: 16px 20px;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  background-color: darkslateblue;
 }
 
 .navbar img{

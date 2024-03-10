@@ -3,9 +3,33 @@ import Navbar from '../navbar/Navbar';
 import '../navbar/Navbar.css';
 import '../stylesheets/Contact.css';
 import { useParams } from 'react-router-dom';
+import { useState } from 'react';
+import $ from 'jquery';
 
 function Contact(props) {
   let { email } = useParams();
+
+  const [ subject, setSubject ] = useState('');
+  const [ name, setName ] = useState('');
+  const [ message, setMessage ] = useState('');
+
+  async function sendMailPhp(e){
+    e.preventDefault();
+    if(message != undefined && message != ""){
+
+        setMessage(message.replaceAll("'", ""));
+
+        var serializedData = `name=${name}&email=${email}&message=${message}&subject=${subject}`;
+        await $.ajax({
+            url: "http://localhost/EasyParkTM/backend/email.php",
+            type: "post",
+            data: serializedData,
+            success: (resp) => {console.log(resp); if(resp == "Message has been sent")window.alert("Message sent!");}
+        });
+    }else{
+        window.alert("Field empty!");
+    }
+}
 
   return (
     <div id="contact-body">
@@ -28,6 +52,7 @@ function Contact(props) {
             name="fullName"
             placeholder="Nume"
             required
+            onInput={(e) => setName(e.target.value)}
           />
           <label htmlFor="subject">Subiect:</label>
           <input
@@ -36,6 +61,7 @@ function Contact(props) {
             name="subject"
             placeholder="Subiect"
             required
+            onInput={(e) => setSubject(e.target.value)}
           />
           <label htmlFor="message">Scrie un mesaj:</label>
           <input
@@ -44,16 +70,11 @@ function Contact(props) {
             name="message"
             placeholder="Mesaj"
             required
+            onInput={(e) => setMessage(e.target.value)}
           />
 
-          <button type="submit">Trimite</button>
+          <button type="button" onClick={sendMailPhp}>Trimite</button>
         </div>
-      </div>
-      {/* Add a contact form here if needed */}
-
-      <div className="map-container">
-        {/* You can embed a map or any other location-related information here */}
-        {/* Example: <iframe src="your-map-url" width="600" height="450" title="Location"></iframe> */}
       </div>
     </div>
   );

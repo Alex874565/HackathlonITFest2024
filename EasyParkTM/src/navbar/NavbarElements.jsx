@@ -18,6 +18,9 @@ margin: 0 16px;
   &:hover{
     text-decoration: underline;
   }
+  &.active{
+    background-color: rgb(88, 137, 221);
+  }
 `;
  
 export const Bars = styled(FaBars)`

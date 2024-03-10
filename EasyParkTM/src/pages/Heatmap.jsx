@@ -2,7 +2,6 @@ import '../stylesheets/Heatmap.css';
 import React, { useEffect } from 'react';
 import Navbar from '../navbar/Navbar';
 import $ from 'jquery';
-import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader } from "@googlemaps/js-api-loader"
 

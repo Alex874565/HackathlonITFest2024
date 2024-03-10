@@ -36,10 +36,10 @@ function Login() {
         data: serializedData,
         success: (resp) => {
             console.log(resp);
-            if (resp != "exists"){
+            if (resp == "exists"){
                 window.location.replace(`home/${email}/`)
             }else if (resp == "!exists"){
-                $('#login_errors').text("Wrong email/password.");
+                window.alert("Wrong email/password.");
             }
         },
         always: (resp) => {
@@ -61,6 +61,17 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     php_req();
+  };
+
+  const getIsFormValid = () => { 
+    return (
+      email && validateEmail(email) && password.value.length >= 8
+    )
+   }; 
+
+   const validateEmail = (email) => {
+    // Implement your email validation logic here
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 
   return (
@@ -103,7 +114,7 @@ function Login() {
               ) : null}
             </div>
 
-            <button id="login-button" type="submit" style={{ backgroundColor: 'green' }}>
+            <button id="login-button" type="submit" style={{ backgroundColor: 'green' }} disabled={!getIsFormValid()}>
               Conectează-te
             </button>
             <p id="to-register">Nu ai cont? <a href="/register">Înregistrează-te aici</a></p>

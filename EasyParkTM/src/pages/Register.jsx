@@ -36,9 +36,9 @@ function Register() {
       data: serializedData,
       success: (resp) => {
           if (resp == "exists"){
-              $('#register_errors').text("Email already in use!");
+              window.alert("Email already in use!");
           }else if (resp == "Connect error"){
-              alert("Email does not exist");
+              window.alert("Connection error.");
           }else{
               var code = prompt("Please enter the code we sent you on email:")
               while(code != resp && code != null){

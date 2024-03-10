@@ -23,20 +23,20 @@ function Home(props) {
     const hour = getCurrentHour();
 
     if ((hour >= 7 && hour <= 9) || (hour >= 16 && hour <= 19)) {
-      return 'Heavy Traffic';
+      return 'Intens';
     } else if (hour > 9 && hour < 16) {
-      return 'Moderate Traffic';
+      return 'Moderat';
     } else {
-      return 'Light Traffic';
+      return 'Redus';
     }
   };
 
   const getTrafficImage = (status) => {
     // Map traffic status to corresponding image source
     const images = {
-      'Heavy Traffic': HtraficImage,
-    'Moderate Traffic': MtraficImage,
-    'Light Traffic': LtraficImage,
+      'Intens': HtraficImage,
+    'Moderat': MtraficImage,
+    'Redus': LtraficImage,
     };
     return images[status] || 'default_image_path.jpg'; // Provide a default image path if status is not found
   };
@@ -112,13 +112,13 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <input list="streets" id="home-search" name="home-search" onInput={onInput} placeholder="Going somewhere?..." />
+        <input list="streets" id="home-search" name="home-search" onInput={onInput} placeholder="Mergi undeva?..." />
           <datalist id="streets">
             {listOptions && listOptions.map(lo => (<option key={lo.street_name}>{lo.street_name}</option>))}
           </datalist>
         <div className="city-status-bar">
-          <p id="city-status">Traffic Status:<br /> {trafficStatus}</p>
-          <img src={getTrafficImage(trafficStatus)} alt={`Traffic status: ${trafficStatus}`} />
+          <p id="city-status">Status Trafic:<br /> {trafficStatus}</p>
+          <img src={getTrafficImage(trafficStatus)} alt={`Status Trafic: ${trafficStatus}`} />
         </div>
       </div>
     </div>

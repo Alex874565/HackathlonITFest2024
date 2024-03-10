@@ -84,6 +84,11 @@ select {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+  &:active{
+    background-color: #0e1238;
+
+    transform: translateX(3px);
+  }
 }
 
 #register-button:disabled,

@@ -10,10 +10,10 @@ const Navbar = ( email ) => {
         <img style={{maxHeight: '49px', maxWidth: '44px'}} src='http://localhost/EasyParkTM/assets/ez_prk.png'/>
         <nav>
           <NavLink to={`/home/${email}/`}>
-            Home
+            Acasa
           </NavLink>
           <NavLink to={`/map/${email}/`}>
-            Map
+            Harta
           </NavLink>
           <NavLink to={`/contact/${email}/`}>
             Contact
