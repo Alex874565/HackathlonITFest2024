@@ -15,9 +15,8 @@ function Contact(props) {
         <div className="contact-border">
           <h2>Contact</h2>
           <p>
-            Dacă aveți întrebări sau nelămuriri, nu ezitați să ne contactați:
+            Dacă aveți întrebări sau nelămuriri, nu ezitați să ne contactați.
           </p>
-          <p>Email: example@example.com</p>
         </div>
         <br></br>
         <div className="message-container">
@@ -28,14 +27,6 @@ function Contact(props) {
             id="fullName"
             name="fullName"
             placeholder="Nume"
-            required
-          />
-          <label htmlFor="emailAdress">Adresă de email:</label>
-          <input
-            type="text"
-            id="emailAdress"
-            name="emailAdress"
-            placeholder="Email"
             required
           />
           <label htmlFor="subject">Subiect:</label>

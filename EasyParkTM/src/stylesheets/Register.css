@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: Arial, sans-serif;
-  background-color: #ddfdc1;
+  background-color: rgb(14, 15, 56, 0.7);
 
   width: 100%;
   height: 100%;
@@ -89,7 +89,7 @@ select {
 #register-button:disabled,
 #register-button[disabled] {
   border: 1px solid #999999;
-  background-color: #008655;
+  background-color: #648ad0;
   color: #ffffff;
   cursor: not-allowed;
 }

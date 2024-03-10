@@ -2,9 +2,17 @@
   font-family: 'Microsport';
   src: url('../assets/fonts/MicrosportBold.ttf');
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
 
-.contact-body h2 {
+h2 {
   font-family: 'Microsport';
+  margin-top: 60px;
 }
 
 #contact-body {
@@ -16,16 +24,16 @@
 
 .contact-us-container {
   width: 50%;
-
+  height: 90%;
   margin-left: 27%;
   margin-right: 25%;
   padding: 0px;
-  padding-top: 50px;
+  padding-top: 31px;
   padding-bottom: 1;
   margin-bottom: 30%;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
-  background-color: rgb(235, 243, 248);
+  background-color: #cbdffe;
   border-radius: 10px;
   border: 2px rgb(212, 212, 212) solid;
 }
@@ -60,9 +68,4 @@
 
 .map-container {
   margin-top: 20px;
-}
-
-img {
-  width: 200px;
-  height: 200px;
 }

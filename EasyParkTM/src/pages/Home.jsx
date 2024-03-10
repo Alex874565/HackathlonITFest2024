@@ -89,9 +89,12 @@ function Home(props) {
     var street_name = e.target.value;
     
     var street_name_index = listOptions.map((o) => o.street_name).indexOf(street_name);
-    var obj = listOptions[street_name_index];
 
-    setSelectedOption(obj);
+    if(street_name_index != -1){
+      var obj = listOptions[street_name_index];
+
+      setSelectedOption(obj);
+    }
   }
 
   useEffect(() => {getData()}, []);
@@ -104,19 +107,17 @@ function Home(props) {
           <div className="home-search-bar">
             <div className='centered-paragraph'>
               <div id='home-title-div'>
-                <p id="home-title">Easy Park</p>
+                {selectedOption ? (<p id="home-title"> Locuri libere: {selectedOption.free_space} din {selectedOption.total_space}.</p>) : <p id="home-title">Easy Park</p>}
               </div>
             </div>
-            <div className="line"></div>
-            <input list="streets" id="home-search" name="home-search" onInput={onInput} placeholder="Going somewhere?..." />
-            <datalist id="streets">
-              {listOptions && listOptions.map(lo => (<option key={lo.street_name}>{lo.street_name}</option>))}
-            </datalist>
-            {selectedOption && (<div id="street-status-div"><h4 id='street-status'> Locuri libere: {selectedOption.free_space} din {selectedOption.total_space}.</h4></div>)}
           </div>
         </div>
+        <input list="streets" id="home-search" name="home-search" onInput={onInput} placeholder="Going somewhere?..." />
+          <datalist id="streets">
+            {listOptions && listOptions.map(lo => (<option key={lo.street_name}>{lo.street_name}</option>))}
+          </datalist>
         <div className="city-status-bar">
-          <p id="city-status">Traffic Status: {trafficStatus}</p>
+          <p id="city-status">Traffic Status:<br /> {trafficStatus}</p>
           <img src={getTrafficImage(trafficStatus)} alt={`Traffic status: ${trafficStatus}`} />
         </div>
       </div>
